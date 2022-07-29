@@ -7,7 +7,7 @@
 }
 .sidebar
 {
-    background-color: whitesmoke;
+    background-color: rgb(175, 173, 173);
     width: 15vw;
     font-family: 'Pacifico', cursive;
     height: 100vh;
@@ -28,7 +28,7 @@
 }
 .main
 {
-    background-color: yellow;
+  /*  background-color: yellow; */
     width: 85vw;
     font-family: 'Rampart One', cursive;
 
@@ -41,8 +41,38 @@
 
 .infocontainer
 {
-    background-color: red;
+  /*  background-color: red;*/
     height: 78vh;
     width: 80vw;
     margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello
+{
+    font-size: 65px;
+}
+
+.name
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about
+{
+    font-size: 45px;
+
+}
+.devpic img
+{
+    height: 78vh;
 }
