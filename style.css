@@ -29,7 +29,7 @@
 .main
 {
   /*  background-color: yellow; */
-    width: 85vw;
+    width: 100vw;
     font-family: 'Rampart One', cursive;
 
 }
@@ -99,4 +99,14 @@
 .devpic img
 {
     height: 58vh;
+}
+
+.contactform
+{
+    height: 100vh;
+    background-image: url("contact-banner-1568x431.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
 }
