@@ -1,17 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 .sidebar
 {
-    background-color: red;
+    background-color: whitesmoke;
     width: 20vw;
+    font-family: 'Pacifico', cursive;
+    
 }
 
+.sidebar nav
+{
+    list-style: none;
+}
 .main
 {
     background-color: yellow;
     width: 80vw;
+    font-family: 'Rampart One', cursive;
+
 }
 
 .container
