@@ -42,7 +42,7 @@
 .infocontainer
 {
   /*  background-color: red;*/
-    height: 78vh;
+    height: 58vh;
     width: 80vw;
     margin: 144px auto;
     display: flex;
@@ -72,7 +72,31 @@
     font-size: 45px;
 
 }
+
+.button
+{
+    margin-top: 34px;
+}
+
+.button button
+{
+    padding: 10px;
+    border-radius: 22px;
+    color: antiquewhite;
+    background-color: dodgerblue;
+
+    font-weight: bold;
+    font-size: 21px;
+    margin: 3 px;
+    cursor: pointer;
+}
+
+.button button:hover{
+    background-color: antiquewhite;
+    color: dodgerblue;
+}
+
 .devpic img
 {
-    height: 78vh;
+    height: 58vh;
 }
