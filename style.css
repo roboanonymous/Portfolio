@@ -102,6 +102,34 @@
     height: 58vh;
 }
 
+/* My Intro */
+
+.aboutme
+{
+    background-image: url("about me.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.summary
+{
+    background-color: royalblue;
+}
+
+.cool
+{
+    background-color: burlywood;
+}
+
+.education
+{
+    background-color: beige;
+}
+/* Contat me page  */
+
 .contactform
 {
     height: 100vh;
