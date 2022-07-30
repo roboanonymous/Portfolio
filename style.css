@@ -112,20 +112,45 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+
 }
+
 
 .summary
 {
-    background-color: royalblue;
+    height: 40%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: royalblue; */
+    padding: 10px;
+    margin: 10px;
+   
 }
 
-.cool
+.heading
 {
-    background-color: burlywood;
+    font-size: 24px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    padding: 20px;
+}
+
+.pa
+{
+    font-size: large;
+    
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 80px;
+    margin-right: 150px;
 }
 
 .education
 {
+    height: 40%;
+    width: 80%;
     background-color: beige;
 }
 /* Contat me page  */
